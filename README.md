@@ -1,39 +1,49 @@
-#Animate.css
-*Just-add-water CSS animation*
+# Animate.css
+
+_Just-add-water CSS animation_
 
 `animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 
-##Usage
+
+
+## Credit
+
+Originally forked from [Dan Eden](https://github.com/daneden/animate.css). This version is completely rewritten in [SASS](http://sass-lang.com/) with the following additions/revisions:
+
+* New animations:
+    * Grow
+    * Shrink
+    * Fold
+* Slightly reduced animation durations.
+* Change `out` and `in` to always be appended to animation names.
+* Class names use hyphens instead of camel case.
+* Additional SCSS files are compiled for integration convenience.
+
+
+
+## Usage
 To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
 
 You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
 
 ```
-$('#yourElement').addClass('animated bounceOutLeft');
+$('.your-element').addClass('animated bounce-left-out');
 ```
 
-You can change the duration of your animations, add a delay or change the number of times that it plays!
+You can change the duration of your animations, add a delay or change the number of times that it plays:
 
+```sass
+.your-element
+	animation-duration: 3s
+	animation-delay: 2s
+	animation-iteration-count: infinite
 ```
-#yourElement {
-	-vendor-animation-duration: 3s;
-	-vendor-animation-delay: 2s;
-	-vendor-animation-iteration-count: infinite;
-}
-```
 
-*Note: be sure to replace "vendor" in the CSS with the applicable vendor prefixes (webkit, moz, ms, o)*
 
-##License
-Animate.css is licensed under the &#9786; license. (http://licence.visualidiot.com/)
 
-##Learn more
-You can learn more about animate.css over at http://daneden.me/animate
-You can also get in touch via email (dan.eden@me.com) or twitter (@_dte) if you need any help or have any issues.
+## Animation List
 
-##Cheat Sheet
-
-####Attention seekers:
+### One-off animations
 flash
 bounce
 shake
@@ -42,69 +52,92 @@ swing
 wobble
 wiggle
 pulse
-
-####Flippers (currently Webkit, Firefox, &amp; IE10 only):
 flip
-flipInX
-flipOutX
-flipInY
-flipOutY
 
-####Fading entrances:
-fadeIn
-fadeInUp
-fadeInDown
-fadeInLeft
-fadeInRight
-fadeInUpBig
-fadeInDownBig
-fadeInLeftBig
-fadeInRightBig
+### Entrances and Exits
 
-####Fading exits:
-fadeOut
-fadeOutUp
-fadeOutDown
-fadeOutLeft
-fadeOutRight
-fadeOutUpBig
-fadeOutDownBig
-fadeOutLeftBig
-fadeOutRightBig
+#### Bounce
+bounce-in
+bounce-down-in
+bounce-up-in
+bounce-left-in
+bounce-right-in
+bounce-out
+bounce-down-out
+bounce-up-out
+bounce-left-out
+bounce-right-out
 
-####Bouncing entrances:
-bounceIn
-bounceInDown
-bounceInUp
-bounceInLeft
-bounceInRight
+#### Fade
+fade-in
+fade-up-in
+fade-down-in
+fade-left-in
+fade-right-in
+fade-up-big-in
+fade-down-big-in
+fade-left-big-in
+fade-right-big-in
+fade-out
+fade-up-out
+fade-down-out
+fade-left-out
+fade-right-out
+fade-up-big-out
+fade-down-big-out
+fade-left-big-out
+fade-right-big-out
 
-####Bouncing exits:
-bounceOut
-bounceOutDown
-bounceOutUp
-bounceOutLeft
-bounceOutRight
+#### Flip _(currently Webkit, Firefox + IE10 only)_
+flip-in-x
+flip-in-y
+flip-out-x
+flip-out-y
 
-####Rotating entrances:
-rotateIn
-rotateInDownLeft
-rotateInDownRight
-rotateInUpLeft
-rotateInUpRight
+#### Fold
+fold-in (elements under `height: 1000px`)
+fold-small-in (elements under `height: 500px`)
+fold-out (elements under `height: 1000px`)
+fold-small-out (elements under `height: 500px`)
 
-####Rotating exits:
-rotateOut
-rotateOutDownLeft
-rotateOutDownRight
-rotateOutUpLeft
-rotateOutUpRight
+#### Grow
+grow-in
+grow-out
 
-####Lightspeed:
-lightSpeedIn
-lightSpeedOut
+#### Hinge
+hinge-out
 
-####Specials:
-hinge
-rollIn
-rollOut
+#### Lightspeed
+light-speed-in
+light-speed-out
+
+#### Roll
+roll-in
+roll-out
+
+#### Rotate
+rotate-in
+rotate-down-left-in
+rotate-down-right-in
+rotate-up-left-in
+rotate-up-right-in
+rotate-out
+rotate-down-left-out
+rotate-down-right-out
+rotate-up-left-out
+rotate-up-right-out
+
+#### Shrink
+shrink-in
+shrink-out
+
+
+
+
+## License
+Animate.css is licensed under the &#9786; license. (http://licence.visualidiot.com/)
+
+## Learn more
+You can learn more about animate.css over at [its home page](http://daneden.me/animate).
+
+Feel free to add animations!, submit issues and pull requests, or [tweet](http://twitter.com/ianstormtaylor) at me.
