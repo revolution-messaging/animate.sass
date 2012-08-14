@@ -48,7 +48,7 @@
 }
 
 .animated.light-speed-in {
-  @include animation-duration(0.5s);
+  @include animation-duration(0.4s);
 }
 
 // ### Light Speed Out
@@ -90,5 +90,5 @@
 }
 
 .animated.light-speed-in {
-  @include animation-duration(0.25s);
+  @include animation-duration(0.2s);
 }

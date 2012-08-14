@@ -5,11 +5,11 @@
 
 // ### Fold In
 
-@mixin fold-in($vendor: '')
+@mixin fold-in($vendor: '', $max-height: 1000px)
     0%
         max-height: 0px
     100%
-        max-height: 1000px
+        max-height: $max-height
 
 @keyframes fold-in
     +fold-in()
@@ -46,9 +46,9 @@
 
 // ### Fold Out
 
-@mixin fold-out($vendor: '')
+@mixin fold-out($vendor: '', $max-height: 1000px)
     0%
-        max-height: 1000px
+        max-height: $max-height
     99%
         max-height: 0px
 
