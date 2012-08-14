@@ -1,12 +1,6 @@
 # Animate.css
 
-_Just-add-water CSS animation_
-
-`animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
-
-
-
-## Credit
+A bunch of cool, fun, and cross-browser animations for you to use in your projects.
 
 Originally forked from [Dan Eden](https://github.com/daneden/animate.css). This version is completely rewritten in [SASS](http://sass-lang.com/) with the following additions/revisions:
 
