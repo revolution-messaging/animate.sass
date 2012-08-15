@@ -83,16 +83,18 @@ You can change the duration of your animations, add a delay or change the number
 * fade-right-big-out
 
 #### Flip _(currently Webkit, Firefox + IE10 only)_
-* flip-in-x
-* flip-in-y
-* flip-out-x
-* flip-out-y
+* flip-x-in
+* flip-y-in
+* flip-x-out
+* flip-y-out
 
 #### Fold _(uses overflow: hidden)_
 * fold-in (elements under `height: 1000px`)
 * fold-small-in (elements under `height: 500px`)
+* fold-tiny-in (elements under `height: 100px`)
 * fold-out (elements under `height: 1000px`)
 * fold-small-out (elements under `height: 500px`)
+* fold-tiny-out (elements under `height: 100px`)
 
 #### Grow
 * grow-in
