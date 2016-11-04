@@ -34,7 +34,7 @@
 }
 
 
-.grow-in {
+%grow-in {
   @include animation-name(grow-in);
 }
 
@@ -71,6 +71,6 @@
 }
 
 
-.grow-out {
+%grow-out {
   @include animation-name(grow-out);
 }

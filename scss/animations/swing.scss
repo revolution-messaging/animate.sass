@@ -39,7 +39,7 @@
 }
 
 
-.swing {
+%swing {
   @include animation-name(swing);
   @include transform-origin(top center);
 }

@@ -32,7 +32,7 @@
 }
 
 
-.fade-in {
+%fade-in {
   @include animation-name(fade-in);
 }
 
@@ -67,7 +67,7 @@
 }
 
 
-.fade-out {
+%fade-out {
   @include animation-name(fade-out);
 }
 
@@ -104,7 +104,7 @@
 }
 
 
-.fade-down-in {
+%fade-down-in {
   @include animation-name(fade-down-in);
 }
 
@@ -141,7 +141,7 @@
 }
 
 
-.fade-down-big-in {
+%fade-down-big-in {
   @include animation-name(fade-down-big-in);
 }
 
@@ -178,7 +178,7 @@
 }
 
 
-.fade-left-in {
+%fade-left-in {
   @include animation-name(fade-left-in);
 }
 
@@ -215,7 +215,7 @@
 }
 
 
-.fade-left-big-in {
+%fade-left-big-in {
   @include animation-name(fade-left-big-in);
 }
 
@@ -252,7 +252,7 @@
 }
 
 
-.fade-right-in {
+%fade-right-in {
   @include animation-name(fade-right-in);
 }
 
@@ -289,7 +289,7 @@
 }
 
 
-.fade-right-big-in {
+%fade-right-big-in {
   @include animation-name(fade-right-big-in);
 }
 
@@ -326,7 +326,7 @@
 }
 
 
-.fade-up-in {
+%fade-up-in {
   @include animation-name(fade-up-in);
 }
 
@@ -363,7 +363,7 @@
 }
 
 
-.fade-up-big-in {
+%fade-up-big-in {
   @include animation-name(fade-up-big-in);
 }
 
@@ -400,7 +400,7 @@
 }
 
 
-.fade-down-out {
+%fade-down-out {
   @include animation-name(fade-down-out);
 }
 
@@ -437,7 +437,7 @@
 }
 
 
-.fade-down-big-out {
+%fade-down-big-out {
   @include animation-name(fade-down-big-out);
 }
 
@@ -474,7 +474,7 @@
 }
 
 
-.fade-left-out {
+%fade-left-out {
   @include animation-name(fade-left-out);
 }
 
@@ -511,7 +511,7 @@
 }
 
 
-.fade-left-big-out {
+%fade-left-big-out {
   @include animation-name(fade-left-big-out);
 }
 
@@ -548,7 +548,7 @@
 }
 
 
-.fade-right-out {
+%fade-right-out {
   @include animation-name(fade-right-out);
 }
 
@@ -585,7 +585,7 @@
 }
 
 
-.fade-right-big-out {
+%fade-right-big-out {
   @include animation-name(fade-right-big-out);
 }
 
@@ -622,7 +622,7 @@
 }
 
 
-.fade-up-out {
+%fade-up-out {
   @include animation-name(fade-up-out);
 }
 
@@ -659,6 +659,6 @@
 }
 
 
-.fade-up-big-out {
+%fade-up-big-out {
   @include animation-name(fade-up-big-out);
 }

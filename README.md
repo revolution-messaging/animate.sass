@@ -1,4 +1,6 @@
-# Animate.css
+# Animate.scss
+
+Forked from [ianstormtaylor](https://github.com/ianstormtaylor/animate.sass). This fork turns animations from classes to Sass Inheritances to help keep markup clean.
 
 A bunch of cool, fun, and cross-browser animations for you to use in your projects.
 
@@ -16,21 +18,24 @@ Originally forked from [Dan Eden](https://github.com/daneden/animate.css). This 
 
 
 ## Usage
-To use animate.css in your website, drop the stylesheet into your document's `<head>`, and add the class `animated` to an element along with an animation name. And look, your element just animated!
 
-You can do a whole bunch of other stuff with animate.css when you combine it with Javascript. Dynamically add animations:
+Import the `scss/animate.scss` file into your top level sass file and apply inheritance to your element.
 
-```javascript
-$('.your-element').addClass('bounce-left-out animated');
+### Example
+
+```
+  .element {
+    @import animated(); // Imports animated mixin with two default variables for $duration, $fillMode
+    @extend %bounce-left-out; // Extends the .bounce animation
+  }
 ```
 
-You can change the duration of your animations, add a delay or change the number of times that it plays:
+You can change the duration and fill mode of your animations:
 
 ```sass
-.your-element
-	animation-duration: 3s
-	animation-delay: 2s
-	animation-iteration-count: infinite
+.element {
+  @import animated(2s, forwards);	
+}
 ```
 
 

@@ -34,7 +34,7 @@
 }
 
 
-.roll-in {
+%roll-in {
   @include animation-name(roll-in);
 }
 
@@ -71,6 +71,6 @@
 }
 
 
-.roll-out {
+%roll-out {
   @include animation-name(roll-out);
 }

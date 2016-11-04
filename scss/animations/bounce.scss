@@ -37,7 +37,7 @@
 }
 
 
-.bounce {
+%bounce {
   @include animation-name(bounce);
 }
 
@@ -80,7 +80,7 @@
 }
 
 
-.bounce-in {
+%bounce-in {
   @include animation-name(bounce-in);
 }
 
@@ -123,7 +123,7 @@
 }
 
 
-.bounce-down-in {
+%bounce-down-in {
   @include animation-name(bounce-down-in);
 }
 
@@ -166,7 +166,7 @@
 }
 
 
-.bounce-left-in {
+%bounce-left-in {
   @include animation-name(bounce-left-in);
 }
 
@@ -209,7 +209,7 @@
 }
 
 
-.bounce-right-in {
+%bounce-right-in {
   @include animation-name(bounce-right-in);
 }
 
@@ -252,7 +252,7 @@
 }
 
 
-.bounce-up-in {
+%bounce-up-in {
   @include animation-name(bounce-up-in);
 }
 
@@ -295,7 +295,7 @@
 }
 
 
-.bounce-out {
+%bounce-out {
   @include animation-name(bounce-out);
 }
 
@@ -335,7 +335,7 @@
 }
 
 
-.bounce-down-out {
+%bounce-down-out {
   @include animation-name(bounce-down-out);
 }
 
@@ -375,7 +375,7 @@
 }
 
 
-.bounce-up-out {
+%bounce-up-out {
   @include animation-name(bounce-up-out);
 }
 
@@ -415,7 +415,7 @@
 }
 
 
-.bounce-right-out {
+%bounce-right-out {
   @include animation-name(bounce-right-out);
 }
 
@@ -455,6 +455,6 @@
 }
 
 
-.bounce-left-out {
+%bounce-left-out {
   @include animation-name(bounce-left-out);
 }

@@ -32,12 +32,12 @@
 }
 
 
-.fold-in {
+%fold-in {
   overflow: hidden;
   @include animation-name(fold-in);
 }
 
-.animated.fold-in {
+%fold-in {
   @include animation-duration(1.2s);
 }
 
@@ -61,12 +61,12 @@
 }
 
 
-.fold-small-in {
+%fold-small-in {
   overflow: hidden;
   @include animation-name(fold-small-out);
 }
 
-.animated.fold-small-in {
+%fold-small-in {
   @include animation-duration(1s);
 }
 
@@ -101,12 +101,12 @@
 }
 
 
-.fold-out {
+%fold-out {
   overflow: hidden;
   @include animation-name(fold-out);
 }
 
-.animated.fold-out {
+%fold-out {
   @include animation-duration(1.2s);
 }
 
@@ -130,11 +130,11 @@
 }
 
 
-.fold-small-out {
+%fold-small-out {
   overflow: hidden;
   @include animation-name(fold-small-out);
 }
 
-.animated.fold-small-out {
+%fold-small-out {
   @include animation-duration(1s);
 }

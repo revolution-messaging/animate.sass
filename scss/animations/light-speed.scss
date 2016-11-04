@@ -42,12 +42,12 @@
 }
 
 
-.light-speed-in {
+%light-speed-in {
   @include animation-name(light-speed-in);
   @include animation-timing-function(ease-in);
 }
 
-.animated.light-speed-in {
+%light-speed-in {
   @include animation-duration(0.4s);
 }
 
@@ -84,11 +84,11 @@
 }
 
 
-.light-speed-in {
+%light-speed-in {
   @include animation-name(light-speed-in);
   @include animation-timing-function(ease-in);
 }
 
-.animated.light-speed-in {
+%light-speed-in {
   @include animation-duration(0.2s);
 }

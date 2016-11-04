@@ -42,27 +42,27 @@ $vendors: "-webkit-" "-moz-" "-o-" "";
 // =======
 
 // Set some defaults that can be overriden on a per-animation basis.
-.animated {
-  @include animation-duration(0.75s);
-  @include animation-fill-mode(both);
+@mixin animate ($duration: 0.75s, $fillMode: both) {
+  @include animation-duration($duration);
+  @include animation-fill-mode($fillMode);
 }
 
 // Animations
 // ==========
 
 @import "animations/bounce";
-@import "animations/fade";
-@import "animations/flash";
-@import "animations/fold";
-@import "animations/grow";
-@import "animations/hinge";
-@import "animations/light-speed";
-@import "animations/pulse";
-@import "animations/roll";
-@import "animations/rotate";
-@import "animations/shake";
-@import "animations/shrink";
-@import "animations/swing";
-@import "animations/tada";
-@import "animations/wiggle";
-@import "animations/wobble";
+//@import "animations/fade";
+//@import "animations/flash";
+//@import "animations/fold";
+//@import "animations/grow";
+//@import "animations/hinge";
+//@import "animations/light-speed";
+//@import "animations/pulse";
+//@import "animations/roll";
+//@import "animations/rotate";
+//@import "animations/shake";
+//@import "animations/shrink";
+//@import "animations/swing";
+//@import "animations/tada";
+//@import "animations/wiggle";
+//@import "animations/wobble";

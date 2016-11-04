@@ -50,11 +50,11 @@
 }
 
 
-.hinge-out {
+%hinge-out {
   @include animation-name(hinge-out);
 }
 
 // Needs a longer animation duration.
-.animated.hinge-out {
+%hinge-out {
   @include animation-duration(1.75s);
 }

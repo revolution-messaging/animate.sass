@@ -34,7 +34,7 @@
 }
 
 
-.shrink-in {
+%shrink-in {
   @include animation-name(shrink-in);
 }
 
@@ -71,6 +71,6 @@
 }
 
 
-.shrink-out {
+%shrink-out {
   @include animation-name(shrink-out);
 }

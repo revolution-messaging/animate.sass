@@ -36,7 +36,7 @@
 }
 
 
-.rotate-in {
+%rotate-in {
   @include animation-name(rotate-in);
 }
 
@@ -75,7 +75,7 @@
 }
 
 
-.rotate-down-left-in {
+%rotate-down-left-in {
   @include animation-name(rotate-down-left-in);
 }
 
@@ -114,7 +114,7 @@
 }
 
 
-.rotate-down-right-in {
+%rotate-down-right-in {
   @include animation-name(rotate-down-right-in);
 }
 
@@ -153,7 +153,7 @@
 }
 
 
-.rotate-up-left-in {
+%rotate-up-left-in {
   @include animation-name(rotate-up-left-in);
 }
 
@@ -192,7 +192,7 @@
 }
 
 
-.rotate-up-right-in {
+%rotate-up-right-in {
   @include animation-name(rotate-up-right-in);
 }
 
@@ -231,7 +231,7 @@
 }
 
 
-.rotate-out {
+%rotate-out {
   @include animation-name(rotate-out);
 }
 
@@ -270,7 +270,7 @@
 }
 
 
-.rotate-down-left-out {
+%rotate-down-left-out {
   @include animation-name(rotate-down-left-out);
 }
 
@@ -309,7 +309,7 @@
 }
 
 
-.rotate-down-right-out {
+%rotate-down-right-out {
   @include animation-name(rotate-down-right-out);
 }
 
@@ -348,7 +348,7 @@
 }
 
 
-.rotate-up-left-out {
+%rotate-up-left-out {
   @include animation-name(rotate-up-left-out);
 }
 
@@ -387,6 +387,6 @@
 }
 
 
-.rotate-up-right-out {
+%rotate-up-right-out {
   @include animation-name(rotate-up-right-out);
 }

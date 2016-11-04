@@ -44,7 +44,7 @@
 }
 
 
-.flip {
+%flip {
   @include animation-name(flip);
   @include transform-style(preserve-3d);
   @include backface-visibility(visible !important);
@@ -89,7 +89,7 @@
 }
 
 
-.flip-x-in {
+%flip-x-in {
   @include animation-name(flip-x-in);
   @include backface-visibility(visible !important);
 }
@@ -133,7 +133,7 @@
 }
 
 
-.flip-y-in {
+%flip-y-in {
   @include animation-name(flip-y-in);
   @include backface-visibility(visible !important);
 }
@@ -171,7 +171,7 @@
 }
 
 
-.flip-x-out {
+%flip-x-out {
   @include animation-name(flip-x-out);
   @include backface-visibility(visible !important);
 }
@@ -209,7 +209,7 @@
 }
 
 
-.flip-y-out {
+%flip-y-out {
   @include animation-name(flip-y-out);
   @include backface-visibility(visible !important);
 }

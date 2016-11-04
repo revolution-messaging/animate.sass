@@ -57,11 +57,11 @@
 }
 
 
-.wiggle {
+%wiggle {
   @include animation-name(wiggle);
   @include animation-timing-function(ease-in);
 }
 
-.animated.wiggle {
+%wiggle {
   @include animation-duration(0.5);
 }
