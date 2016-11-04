@@ -42,7 +42,7 @@ $vendors: "-webkit-" "-moz-" "-o-" "";
 // =======
 
 // Set some defaults that can be overriden on a per-animation basis.
-@mixin animate ($duration: 0.75s, $fillMode: both) {
+@mixin animated ($duration: 0.75s, $fillMode: both) {
   @include animation-duration($duration);
   @include animation-fill-mode($fillMode);
 }
