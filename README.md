@@ -25,7 +25,7 @@ Import the `scss/animate.scss` file into your top level sass file and apply inhe
 
 ```
   .element {
-    @import animated(); // Imports animated mixin with two default variables for $duration, $fillMode
+    @include animated(); // Imports animated mixin with two default variables for $duration, $fillMode
     @extend %bounce-left-out; // Extends the .bounce animation
   }
 ```
@@ -34,7 +34,7 @@ You can change the duration and fill mode of your animations:
 
 ```sass
 .element {
-  @import animated(2s, forwards);	
+  @include animated(2s, forwards);	
 }
 ```
 
